@@ -1,0 +1,28 @@
+body {
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	line-height: 2;
+	background-color: azure;
+	color: white;
+	text-shadow: 1px 1px 2px rgb(0, 0, 0, 0.2);
+	margin: 20px;
+}
+
+div {
+	background-color: cornflowerblue;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	border-radius: 20px;
+	padding: 10px 40px;
+	margin: 10px;
+}
+
+a:link {
+	color: rgb(0, 200, 255);
+}
+
+a:hover {
+	color: rgb(150, 150, 255);
+}
+
+a:visited {
+	color: blueviolet;
+}
