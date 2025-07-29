@@ -1,31 +1,16 @@
 body {
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
-	line-height: 2;
 	background-color: aliceblue;
 	color: white;
 	text-shadow: 1px 1px 2px rgb(0, 0, 0, 0.2);
+	line-height: 2;
+	font-size: 16px;
 	margin: 0;
 }
 
 header {
 	background-color: darkslateblue;
 	padding: 40px;
-	margin: 0;
-}
-
-div div {
-	background-color: cornflowerblue;
-	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-	border-radius: 20px;
-	padding: 8px 35px;
-	margin: 20px;
-}
-
-div div div {
-	background-color: aliceblue;
-	color: black;
-	padding: 10px 35px;
-	margin: 20px 0;
 }
 
 h1 {
@@ -38,6 +23,36 @@ h2 {
 	font-size: 1.5em;
 	text-align: center;
 	margin: 20px 0 40px 0;
+}
+
+h3 {
+	font-size: 1.2em;
+	text-align: center;
+	margin: 20px;
+}
+
+div div {
+	background-color: cornflowerblue;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	border-radius: 20px;
+	padding: 10px 35px;
+	margin: 20px;
+}
+
+div div div {
+	background-color: none;
+	padding: 0;
+	margin: 0;
+	box-shadow: none;
+}
+
+footer {
+	background-color: rgb(0, 0, 0, 0.1);
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	border-radius: 10px;
+	text-align: center;
+	padding: 20px;
+	margin: 10px 80px;
 }
 
 abbr {
