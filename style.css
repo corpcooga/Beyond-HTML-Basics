@@ -71,6 +71,19 @@ ul {
 	text-align: center;
 }
 
+.wrapper {
+	margin: 0;
+	padding: 0;
+	border-radius: 0;
+	background-color: darkslateblue;
+}
+
+.wrapper div {
+	background-color: darkslateblue;
+	padding: 20px 0;
+	margin: 0;
+}
+
 abbr {
 	color: mediumseagreen;
 	font-weight: bolder;
