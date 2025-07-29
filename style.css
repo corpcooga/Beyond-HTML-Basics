@@ -1,3 +1,8 @@
+/* Boon Chew
+   July 28, 2025
+*/
+
+/* Global Styles */
 body {
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	background-color: aliceblue;
@@ -5,6 +10,7 @@ body {
 	text-shadow: 1px 1px 2px rgb(0, 0, 0, 0.2);
 	line-height: 2;
 	font-size: 16px;
+	/* 0 margin allows background to reach the edges of the screen */
 	margin: 0;
 }
 
@@ -13,6 +19,7 @@ header {
 	padding: 20px 0 10px 0;
 }
 
+/* Centering all headings and giving a bigger shadow to provide emphasis */
 h1, h2, h3 {
 	text-shadow: 1px 1px 3px rgb(0, 0, 0, 0.4);
 	text-align: center;
@@ -30,9 +37,10 @@ h2 {
 
 h3 {
 	font-size: 1.5em;
-	margin: 20px;
+	margin: 20px 0 10px 0;
 }
 
+/* summary is smaller and italics */
 .summary {
 	text-align: center;
 	background-color: slateblue;
@@ -45,6 +53,7 @@ h3 {
 	line-height: 1;
 }
 
+/* accesses nested divs because of how the HTML is structured */
 div div {
 	background-color: cornflowerblue;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -53,6 +62,7 @@ div div {
 	margin: 20px;
 }
 
+/* accesses further nested divs to remove their styling so it is cleaner */
 div div div {
 	background-color: none;
 	padding: 0;
@@ -60,6 +70,7 @@ div div div {
 	box-shadow: none;
 }
 
+/* styles the footer to stand out more */
 footer {
 	background-color: rgb(0, 0, 0, 0.1);
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -70,11 +81,13 @@ footer {
 	transition: background-color 0.5s;
 }
 
+/* footer animation */
 footer:hover {
 	transition-timing-function: ease;
 	background-color: rgb(0, 0, 0, 0.2);
 }
 
+/* removes bullets from lists to be cleaner */
 ul {
 	list-style-type: none;
 	padding: 0;
@@ -82,6 +95,7 @@ ul {
 	text-align: center;
 }
 
+/* bottom section styled the same as the top to add cohesiveness */
 .wrapper {
 	margin: 0;
 	padding: 0;
@@ -89,12 +103,15 @@ ul {
 	background-color: darkslateblue;
 }
 
+/* remove styling on internal divs to be cleaner */
 .wrapper div {
 	background-color: darkslateblue;
 	padding: 20px 0;
 	margin: 0;
 }
 
+
+/* emphasizes each abbreviation to be more prominent and have an effect */
 abbr {
 	color: mediumseagreen;
 	font-weight: bolder;
@@ -102,11 +119,13 @@ abbr {
 	transition: color 0.3s;
 }
 
+/* abbr hover effect color change */
 abbr:hover {
 	transition-timing-function: ease;
 	color: forestgreen;
 }
 
+/* links styled to be more visually appealing */
 a:link {
 	color: skyblue;
 }
