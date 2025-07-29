@@ -1,18 +1,31 @@
 body {
-	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	line-height: 2;
-	background-color: azure;
+	background-color: aliceblue;
 	color: white;
 	text-shadow: 1px 1px 2px rgb(0, 0, 0, 0.2);
-	margin: 20px;
+	margin: 0;
 }
 
-div {
+header {
+	background-color: darkslateblue;
+	padding: 40px;
+	margin: 0;
+}
+
+div div {
 	background-color: cornflowerblue;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 	border-radius: 20px;
-	padding: 10px 40px;
-	margin: 10px;
+	padding: 8px 35px;
+	margin: 20px;
+}
+
+div div div {
+	background-color: aliceblue;
+	color: black;
+	padding: 10px 35px;
+	margin: 20px 0;
 }
 
 h1 {
@@ -30,14 +43,15 @@ h2 {
 abbr {
 	color: mediumseagreen;
 	font-weight: bolder;
+	text-decoration: none;
 }
 
 a:link {
-	color: deepskyblue;
+	color: skyblue;
 }
 
 a:hover {
-	color: skyblue;
+	color: lightcyan;
 }
 
 a:visited {
